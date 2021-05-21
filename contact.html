@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+.hello{
+    position: relative;
+}
+.project-info {
+    background: var(--white-color);
+    border-radius: var(--border-radius-small);
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    left: 32px;
+    width: 90%;
+    padding: 30px;
+  }
+img{display: block;
+    height: 300px;
+    width: 500px ;
+}
+  .project-info small {
+    font-size: large;
+    font-family: Plain-Bold;
+    position: relative;
+    top: 2px;
+  }
+    </style>
+</head>
+<body>
+    <div class="owl-carousel owl-theme">
+        <div class="item hello">
+            <img src="top1.jpg" class="img-fluid" alt="" >
+            <div class="project-info">
+                <small>Volunteer at</small>
+                <br>
+                <h3>
+                     <a href="https://students.iitk.ac.in/prayas/">
+                          <span>Prayas</span>
+                          <i class="fa fa-angle-right project-icon"></i>
+                     </a>
+                </h3>
+                <div>I teach biology to class X students, also happened to have helped make the website.</div>
+           </div>
+        </div>
+        <div class="item">
+            <img src="top1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="top1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="top1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="top1.jpg" alt="">
+        </div>
+        <div class="item">
+            <img src="top1.jpg" alt="">
+        </div>
+        
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    dots:true,
+    nav:true,
+    stagePadding:50,
+    // autoplay:true,
+    // autoplayTimeout: 3000,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+    </script>
+</body>
+</html>
