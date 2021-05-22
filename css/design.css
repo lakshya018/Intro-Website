@@ -65,3 +65,35 @@ text-align: center;
 
 padding: 10px;
 }
+@media screen and (max-width:768px) {
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+  justify-content: space-between;
+        
+
+    }
+    .section_title{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }  
+}
+@media screen and (min-width: 768px){
+    body{
+      margin: 0;
+      padding: 0;
+    }
+    .section{
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+    }
+    .section_title{
+      margin-bottom: 3rem;
+    }
+    .section_title::after{
+      width: 250px;
+      top: 3rem;
+    }
+}  
