@@ -556,6 +556,12 @@ nav>div>a{
 .nav img{
 height: 55px;
 }
+  .contact__input{
+  width: 100%;
+}
+.contact_button{
+  margin-left: 95px;
+}
   .contact{
     text-align: center ;
     align-items: center ;
