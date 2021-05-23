@@ -430,6 +430,7 @@ nav>div>a{
 }
 .footer__social span{
   font-size: 1rem;
+  color:#fff;
   margin: 6px;
 }
 .footer__icon{
